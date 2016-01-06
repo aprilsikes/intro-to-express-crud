@@ -36,4 +36,12 @@ __Do them in this order:__
 6. /cars/:id/update (POST) UPDATE `redirect to index`
 7. /cars/:id/delete (DELETE) DESTROY `redirect to index`
 
+## Set Up
+
+```
+fork / clone
+npm install
+nodemon
+```
+
 __SUBMIT A PULL REQUEST UPON COMPLETION__
