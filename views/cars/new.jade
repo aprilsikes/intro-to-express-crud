@@ -1,0 +1,7 @@
+extends ../layout
+
+block content
+  h1 New Car Route
+  h3 Your url should be http://localhost:3000/cars/new
+  form(action='/cars' method='post') 
+    input(type='submit' value="Click me to 'add a new car'")

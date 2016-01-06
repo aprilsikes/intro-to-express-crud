@@ -1,0 +1,11 @@
+extends ../layout
+
+block content
+  h1 Editing A Car 
+  h3 Your url should be http://localhost:3000/cars/#{carId}/edit
+  form(action='/cars/' + carId method='post')
+    input(type='submit' value='Update Car')
+    
+  form(action='/cars/' + carId + '/delete' method='post')
+    input(type='submit' value='Delete Car')
+    

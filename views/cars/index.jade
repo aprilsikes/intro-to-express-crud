@@ -1,0 +1,19 @@
+extends ../layout
+
+block content
+
+  h1 Showing All Cars
+  h3 Your url should be http://localhost:3000/cars
+  a(href="/cars/new") New Car 
+  
+  table
+    thead
+      tr
+        th Name
+    tbody
+        tr
+          td
+            a(href='/cars/1234') Jaguar
+        tr
+          td
+            a(href='/cars/6789') Jeep
