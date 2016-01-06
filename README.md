@@ -26,6 +26,9 @@ be able to spin up these route in under 30 minutes.
 
 In `routes/cars.js` add the necessary routes to make the app work. Each page has a link that leads to the RESTful(ish) route that should be associated with the specific CRUD task.
 
+You will need to use `req.params` complete this exercise. Do not change code in
+the view files.
+
 __Do them in this order:__
 
 1. /cars (GET) ALL `render index`
